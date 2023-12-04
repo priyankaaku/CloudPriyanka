@@ -1,0 +1,7 @@
+let array = [4, 2, 7, 1, 9];
+
+array.sort(function(a, b) {
+  return b - a;
+});
+
+console.log(array);
